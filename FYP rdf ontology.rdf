@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16/"
+     xml:base="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#belongsToDepartment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#belongsToDepartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#conducts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#conducts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#EvaluationPanel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Viva"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#develops -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#develops">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Codebase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#evaluates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#evaluates">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#EvaluationPanel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#givesFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#givesFeedback">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Feedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDocumentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDocumentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasProject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasSupervisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasSupervisor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTimeline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTimeline">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Timeline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasViva -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasViva">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Viva"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#implements">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectPlan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#includesMilestone -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#includesMilestone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Timeline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isManagedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isManagedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectManager"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isProjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isProjectOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isSupervisorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isSupervisorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#prepares -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#prepares">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Presentation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#receivesEvaluation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#receivesEvaluation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#requiresSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#requiresSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#schedules -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#schedules">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Coordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ReviewMeeting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#submits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#submits">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#supports">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SupportResource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#uploads -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#uploads">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FinalReport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#usesRubric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#usesRubric">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#GradingRubric"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasBatch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasBatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDueDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDueDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEmail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEndDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEnrollmentID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEnrollmentID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEvaluatorComment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEvaluatorComment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasFileName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasFileName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasPhone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasPhone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasScore">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStartDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasSubmissionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasSubmissionDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Codebase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Codebase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Coordinator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Coordinator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Demonstration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Demonstration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Deployment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Deployment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#DesignDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#DesignDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#EvaluationPanel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#EvaluationPanel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Feedback"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FinalReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FinalReport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#GradingRubric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#GradingRubric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Implementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Implementation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Milestone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Timeline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Presentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Presentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectManager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectManager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectPlan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Proposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Proposal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ResearchPaper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ResearchPaper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ReviewMeeting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ReviewMeeting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SRS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SRS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SupportResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SupportResource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Testing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Timeline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Timeline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#UserManual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#UserManual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Viva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Viva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#AI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#AI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Domain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Isha_Tariq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Isha_Tariq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+        <untitled-ontology-16:hasProject rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#alzheimer_fyp"/>
+        <untitled-ontology-16:hasSupervisor rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#dr_fahad_sup"/>
+        <untitled-ontology-16:hasEmail>ishatariq767@gmail.com</untitled-ontology-16:hasEmail>
+        <untitled-ontology-16:hasEnrollmentID>BSCS51F21S063</untitled-ontology-16:hasEnrollmentID>
+        <untitled-ontology-16:hasName>Isha</untitled-ontology-16:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#MachineLearning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#MachineLearning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#alzheimer_fyp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#alzheimer_fyp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <untitled-ontology-16:belongsToDepartment rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#cs_department"/>
+        <untitled-ontology-16:hasDomain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#AI"/>
+        <untitled-ontology-16:requiresSkill rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#MachineLearning"/>
+        <untitled-ontology-16:hasDescription>A final year project for AI based alzheimer diagnosis.</untitled-ontology-16:hasDescription>
+        <untitled-ontology-16:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-30T00:00:00</untitled-ontology-16:hasEndDate>
+        <untitled-ontology-16:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-01T00:00:00</untitled-ontology-16:hasStartDate>
+        <untitled-ontology-16:hasTitle>Alzheimer&apos;s Diagnosis System</untitled-ontology-16:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#cs_department -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#cs_department">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#dr_fahad_sup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#dr_fahad_sup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor"/>
+        <untitled-ontology-16:hasEmail>fahad.maqbool@uos.edu.pk</untitled-ontology-16:hasEmail>
+        <untitled-ontology-16:hasName>Dr Fahad Maqbool</untitled-ontology-16:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Coordinator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ProjectManager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Supervisor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#DesignDocument"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FinalReport"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Proposal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#ResearchPaper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#SRS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#UserManual"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
