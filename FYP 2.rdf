@@ -99,7 +99,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#belongsToDepartment">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Department"/>
     </owl:ObjectProperty>
     
@@ -149,7 +149,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDocumentation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
     </owl:ObjectProperty>
     
@@ -159,7 +159,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDomain">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Domain"/>
     </owl:ObjectProperty>
     
@@ -170,7 +170,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasProject">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/fyp-lite#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
     </owl:ObjectProperty>
     
 
@@ -239,7 +239,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#isProjectOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/fyp-lite#Student"/>
     </owl:ObjectProperty>
     
@@ -269,7 +269,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#receivesEvaluation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Evaluation"/>
     </owl:ObjectProperty>
     
@@ -279,7 +279,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#requiresSkill">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#FYP"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill"/>
     </owl:ObjectProperty>
     
@@ -391,15 +391,8 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasBatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDescription -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasDescription"/>
     
 
 
@@ -420,12 +413,6 @@
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEndDate -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasEndDate"/>
     
 
 
@@ -454,12 +441,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasName -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasName"/>
     
 
 
@@ -492,12 +473,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStartDate -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStartDate"/>
-    
-
-
     <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStatus -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasStatus">
@@ -515,12 +490,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTitle -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#hasTitle"/>
     
 
 
@@ -657,21 +626,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Person"/>
-    
-
-
     <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Presentation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Presentation"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Project"/>
     
 
 
@@ -722,12 +679,6 @@
     <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Skill"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ishita/ontologies/2025/3/untitled-ontology-16#Student"/>
     
 
 
